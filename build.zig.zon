@@ -3,10 +3,10 @@
     .version = "5.0.0",
     .dependencies = .{
         .raylib = .{
-            .url = "https://github.com/raysan5/raylib/archive/5.0.tar.gz",
-            .hash = "1220c28847ca8e8756734ae84355802b764c9d9cf4de057dbc6fc2b15c56e726f27b",
+            .url = "https://github.com/raysan5/raylib/archive/refs/heads/master.tar.gz",
+            .hash = "122015fa9680267cb4c97b0883a8556c10b8a38c75f3938f2693e2d93ea326d26604",
         },
     },
-    .minimum_zig_version = "0.11.0",
+    .minimum_zig_version = "0.12.0",
     .paths = .{ "lib/raylib.zig", "lib/raylib-ext.zig", "lib/raymath.zig", "lib/raymath-ext.zig", "lib/rlgl.zig", "lib/rlgl-ext.zig" },
 }
