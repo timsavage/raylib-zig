@@ -4,7 +4,7 @@
     .dependencies = .{
         .raylib = .{
             .url = "https://github.com/raysan5/raylib/archive/refs/heads/master.tar.gz",
-            .hash = "122015fa9680267cb4c97b0883a8556c10b8a38c75f3938f2693e2d93ea326d26604",
+            .hash = "12208edb6d35c0aa5f57262014b02392c6ccfd0685a8eff1d961b42a612d3418fa89",
         },
     },
     .minimum_zig_version = "0.12.0",
